@@ -33,6 +33,4 @@ http.createServer(function(req, res) { //Our callback is this function
         res.writeHead(404);
         res.end();
     }
-
-
 }).listen(1337, '127.0.0.1'); //1337 is the port we choose
